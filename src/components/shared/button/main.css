@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ion-activatable {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.custom-button {
+  padding: 10px 20px;
+  margin: 15px 0 25px 0;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  background: linear-gradient(135deg, #501794, #3e70a1);
+  font-size: 17.92px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.custom-button .custom-ripple {
+  --ion-ripple-background: var(--ion-color-primary, #ffffff);
+  
+}
+
+.custom-parent {
+  background-color: var(--ion-color-primary, #ffffff);
+}
+
+.button-icon {
+  margin-right: 8px;
+  font-size: 20px;
+}
